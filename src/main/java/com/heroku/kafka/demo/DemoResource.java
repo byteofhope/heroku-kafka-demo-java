@@ -27,7 +27,7 @@ public class DemoResource {
   }
 
   @GET
-  @Path("messages2")
+  @Path("messages")
   @Produces(MediaType.APPLICATION_JSON)
   @Timed
   public List<DemoMessage> getMessages() {
@@ -35,7 +35,7 @@ public class DemoResource {
   }
 
   @POST
-  @Path("messages2")
+  @Path("messages")
   @Consumes(MediaType.APPLICATION_JSON)
   @Produces(MediaType.APPLICATION_JSON)
   @Timed
