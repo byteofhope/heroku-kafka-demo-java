@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 public class DemoApplication extends Application<DemoConfiguration>  {
   private static final Logger LOG = LoggerFactory.getLogger(DemoApplication.class);
 
-  //FT2A
+  //FT2B
   public static void main(String[] args) throws Exception {
     new DemoApplication().run(args);
   }
